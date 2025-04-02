@@ -11,3 +11,5 @@ Q
 !contracts/consent-management.clar,2/e/2e5a2504188b18fe18335d2beebfa11e060fc3fb
 P
  tests/consent-management.test.ts,7/8/783f8cca98d01d49f59c2931d64e7c41c95061ed
+T
+$tests/insurance-verification.test.ts,f/a/fa8c91147948aeb84c4ec2186663c120d54942bc
