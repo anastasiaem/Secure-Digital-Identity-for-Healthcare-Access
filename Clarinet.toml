@@ -5,8 +5,23 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.consent-management]
+path = 'contracts/consent-management.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.insurance-verification]
+path = 'contracts/insurance-verification.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.patient-identity]
 path = 'contracts/patient-identity.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.treatment-authorization]
+path = 'contracts/treatment-authorization.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]
