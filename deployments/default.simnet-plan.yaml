@@ -50,8 +50,23 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: consent-management
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/consent-management.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: insurance-verification
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/insurance-verification.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: patient-identity
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/patient-identity.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: treatment-authorization
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/treatment-authorization.clar
             clarity-version: 2
       epoch: "2.5"

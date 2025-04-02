@@ -13,3 +13,7 @@ P
  tests/consent-management.test.ts,7/8/783f8cca98d01d49f59c2931d64e7c41c95061ed
 T
 $tests/insurance-verification.test.ts,f/a/fa8c91147948aeb84c4ec2186663c120d54942bc
+V
+&contracts/treatment-authorization.clar,9/c/9c3f95dc10f63828b9fa2d8c1f1314dde783502d
+U
+%tests/treatment-authorization.test.ts,8/4/84faf1d1a251087865acc6b0cf79f9b670c895ba
